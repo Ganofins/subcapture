@@ -1,0 +1,764 @@
+[
+	{
+		"service": "fastly",
+		"cname": [
+			"fastly"
+		],
+		"fingerprint": [
+			"Fastly error: unknown domain"
+		]
+	},
+	{
+		"service": "github",
+		"cname": [
+			"github.io",
+			"github"
+		],
+		"fingerprint": [
+			"There isn't a GitHub Pages site here.",
+			"For root URLs (like http://example.com/) you must provide an index.html file"
+		]
+	},
+	{
+		"service": "heroku",
+		"cname": [
+			"herokuapp",
+			"herokudns.com",
+			"herokussl.com"
+		],
+		"fingerprint": [
+			"No such app",
+			"There's nothing here, yet.",
+			"herokucdn.com/error-pages/no-such-app.html"
+		]
+	},
+	{
+		"service": "pantheon",
+		"cname": [
+			"pantheonsite.io",
+			"pantheon"
+		],
+		"fingerprint": [
+			"The gods are wise, but do not know of the site which you seek."
+		]
+	},
+	{
+		"service": "tumblr",
+		"cname": [
+			"domains.tumblr.com",
+			"tumblr"
+		],
+		"fingerprint": [
+			"Whatever you were looking for doesn't currently exist at this address.",
+			"There's nothing here."
+		]
+	},
+	{
+		"service": "wordpress",
+		"cname": [
+			"wordpress.com",
+			"wordpress"
+		],
+		"fingerprint": [
+			"Do you want to register"
+		]
+	},
+	{
+		"service": "teamwork",
+		"cname": [
+			"teamwork.com",
+			"teamwork"
+		],
+		"fingerprint": [
+			"Oops - We didn't find your site."
+		]
+	},
+	{
+		"service": "helpjuice",
+		"cname": [
+			"helpjuice.com",
+			"helpjuice"
+		],
+		"fingerprint": [
+			"We could not find what you're looking for."
+		]
+	},
+	{
+		"service": "helpscout",
+		"cname": [
+			"helpscoutdocs.com",
+			"helpscout"
+		],
+		"fingerprint": [
+			"No settings were found for this company:"
+		]
+	},
+	{
+		"service": "s3 bucket",
+		"cname": [
+			"amazonaws",
+			"amazonaws.com"
+		],
+		"fingerprint": [
+			"The specified bucket does not exist"
+		]
+	},
+	{
+		"service": "ghost",
+		"cname": [
+			"ghost.io",
+			"ghost"
+		],
+		"fingerprint": [
+			"The thing you were looking for is no longer here, or never was",
+			"The thing you were looking for is no longer here"
+		]
+	},
+	{
+		"service": "feedpress",
+		"cname": [
+			"redirect.feedpress.me",
+			"feedpress"
+		],
+		"fingerprint": [
+			"The feed has not been found."
+		]
+	},
+	{
+		"service": "shopify",
+		"cname": [
+			"myshopify.com",
+			"shopify"
+		],
+		"fingerprint": [
+			"Sorry, this shop is currently unavailable."
+		]
+	},
+	{
+		"service": "statuspage",
+		"cname": [
+			"statuspage.io"
+		],
+		"fingerprint": [
+			"Status page pushed a DNS"
+		]
+	},
+	{
+		"service": "uservoice",
+		"cname": [
+			"uservoice.com",
+			"uservoice"
+		],
+		"fingerprint": [
+			"This UserVoice subdomain is currently available!"
+		]
+	},
+	{
+		"service": "surge",
+		"cname": [
+			"surge.sh",
+			"surge"
+		],
+		"fingerprint": [
+			"project not found"
+		]
+	},
+	{
+		"service": "bitbucket",
+		"cname": [
+			"bitbucket.io",
+			"bitbucket"
+		],
+		"fingerprint": [
+			"Repository not found",
+			"The page you have requested does not exist"
+		]
+	},
+	{
+		"service": "intercom",
+		"cname": [
+			"custom.intercom.help",
+			"intercom-mail.com",
+			"intercom"
+		],
+		"fingerprint": [
+			"Uh oh. That page doesn't exist.",
+			"This page is reserved for artistic dogs."
+		]
+	},
+	{
+		"service": "webflow",
+		"cname": [
+			"proxy.webflow.com",
+			"proxy-ssl.webflow.com",
+			"webflow"
+		],
+		"fingerprint": [
+			"The page you are looking for doesn't exist or has been moved"
+		]
+	},
+	{
+		"service": "wishpond",
+		"cname": [
+			"wishpond.com",
+			"wishpond"
+		],
+		"fingerprint": [
+			"404"
+		]
+	},
+	{
+		"service": "aftership",
+		"cname": [
+			"aftership.com",
+			"aftership"
+		],
+		"fingerprint": [
+			"The page you're looking for doesn't exist"
+		]
+	},
+	{
+		"service": "aha",
+		"cname": [
+			"ideas.aha.io",
+			"aha"
+		],
+		"fingerprint": [
+			"There is no portal here ... sending you back to Aha!"
+		]
+	},
+	{
+		"service": "tictail",
+		"cname": [
+			"tictail.com",
+			"domains.tictail.com",
+			"tictail"
+		],
+		"fingerprint": [
+			"to target URL:",
+			"Building a brand of your own?",
+			"Start selling on Tictail."
+		]
+	},
+	{
+		"service": "brightcove",
+		"cname": [
+			"bcvp0rtal.com",
+			"brightcovegallery.com",
+			"gallery.video",
+			"brightcove"
+		],
+		"fingerprint": [
+			"Error Code: 404",
+			"404"
+		]
+	},
+	{
+		"service": "bigcartel",
+		"cname": [
+			"bigcartel.com",
+			"bigcartel"
+		],
+		"fingerprint": [
+			"Oops! We could"
+		]
+	},
+	{
+		"service": "campaignmonitor",
+		"cname": [
+			"createsend.com",
+			"campaignmonitor"
+		],
+		"fingerprint": [
+			"Double check the URL",
+			"Trying to access your account?",
+			"or <a href="
+		]
+	},
+	{
+		"service": "acquia",
+		"cname": [
+			"acquia-test.co",
+			"acquia"
+		],
+		"fingerprint": [
+			"The site you are looking for could not be found.",
+			"If you are an Acquia Cloud customer and expect to see your site at this address"
+		]
+	},
+	{
+		"service": "simplebooklet",
+		"cname": [
+			"simplebooklet.com",
+			"simplebooklet"
+		],
+		"fingerprint": [
+			"We can't find this"
+		]
+	},
+	{
+		"service": "getresponse",
+		"cname": [
+			"gr8.com",
+			"getresponse"
+		],
+		"fingerprint": [
+			"With GetResponse Landing Pages, lead generation has never been easier"
+		]
+	},
+	{
+		"service": "vend",
+		"cname": [
+			"vendecommerce.com",
+			"vend"
+		],
+		"fingerprint": [
+			"Looks like you've traveled too far into cyberspace"
+		]
+	},
+	{
+		"service": "jetbrains",
+		"cname": [
+			"myjetbrains.com",
+			"jetbrains"
+		],
+		"fingerprint": [
+			"is not a registered InCloud YouTrack"
+		]
+	},
+	{
+		"service": "azure",
+		"cname": [
+			"azurewebsites.net",
+			"cloudapp.net",
+			"cloudapp.azure.com",
+			"trafficmanager.net",
+			"blob.core.windows.net",
+			"azure-api.net",
+			"azurehdinsight.net",
+			"azureedge.net"
+		],
+		"fingerprint": []
+	},
+	{
+		"service": "zendesk",
+		"cname": [
+			"zendesk.com",
+			"zendesk"
+		],
+		"fingerprint": [
+			"Help Center Closed",
+			"this help center no longer exists",
+			"no longer exists"
+		]
+	},
+	{
+		"service": "readme",
+		"cname": [
+			"readme.io",
+			"readme"
+		],
+		"fingerprint": [
+			"Project doesnt exist... yet!"
+		]
+	},
+	{
+		"service": "apigee",
+		"cname": [
+			"-portal.apigee.net"
+		],
+		"fingerprint": []
+	},
+	{
+		"service": "smugmug",
+		"cname": [
+			"domains.smugmug.com",
+			"smugmug"
+		],
+		"fingerprint": [
+			"Page Not Found"
+		]
+	},
+	{
+		"service": "worksites.net",
+		"cname": [
+			"69.164.223.206"
+		],
+		"fingerprint": [
+			"Hello! Sorry, but the website you",
+			"Company Not Found"
+		]
+	},
+	{
+		"service": "agile crm",
+		"cname": [
+			"cname.agilecrm.com",
+			"agilecrm.com",
+			"agilecrm"
+		],
+		"fingerprint": [
+			"Sorry, this page is no longer available"
+		]
+	},
+	{
+		"service": "airee",
+		"cname": [
+			"cdn.airee.ru",
+			"airee"
+		],
+		"fingerprint": [
+			"Ошибка 402. Сервис Айри.рф не оплачен"
+		]
+	},
+	{
+		"service": "anima",
+		"cname": [
+			"animaapp.com",
+			"ns1.animaapp.com",
+			"anima"
+		],
+		"fingerprint": [
+			"If this is your website and you've just created it, try refreshing in a minute"
+		]
+	},
+	{
+		"service": "cargocollective",
+		"cname": [
+			"cargocollective.com"
+		],
+		"fingerprint": [
+			"404 Not Found",
+			"<div class="
+		]
+	},
+	{
+		"service": "digitalocean",
+		"cname": [
+			"digitalocean.com"
+		],
+		"fingerprint": [
+			"Domain uses DO name serves with no records in DO"
+		]
+	},
+	{
+		"service": "discourse",
+		"cname": [
+			"discoursehosting.net",
+			"hosted-by-discourse.com"
+		],
+		"fingerprint": [
+			"Domain has already been taken"
+		]
+	},
+	{
+		"service": "flyio",
+		"cname": [
+			"fly.dev"
+		],
+		"fingerprint": [
+			"404 Not Found"
+		]
+	},
+	{
+		"service": "gemfury",
+		"cname": [
+			"furyns.com",
+			"gemfury"
+		],
+		"fingerprint": [
+			"404: This page could not be found"
+		]
+	},
+	{
+		"service": "hatenablog",
+		"cname": [
+			"hatenablog.com",
+			"hatenablog"
+		],
+		"fingerprint": [
+			"404 Blog is not found",
+			"Sorry, we can't find the page you're looking for."
+		]
+	},
+	{
+		"service": "kinsta",
+		"cname": [
+			"kinsta.cloud",
+			"kinsta"
+		],
+		"fingerprint": [
+			"No Site For Domain"
+		]
+	},
+	{
+		"service": "launchrock",
+		"cname": [
+			"launchrock.com",
+			"launchrock"
+		],
+		"fingerprint": [
+			"It looks like you may have taken a wrong turn somewhere"
+		]
+	},
+	{
+		"service": "mashery",
+		"cname": [
+			"mashery.com",
+			"mashery"
+		],
+		"fingerprint": [
+			"Unrecognized domain"
+		]
+	},
+	{
+		"service": "netlify",
+		"cname": [
+			"netlify.com",
+			"netlify"
+		],
+		"fingerprint": [
+			"Not Found",
+			"server: Netlify"
+		]
+	},
+	{
+		"service": "ngrok",
+		"cname": [
+			"ngrok.io",
+			"ngrok"
+		],
+		"fingerprint": [
+			"Tunnel *.ngrok.io not found",
+			"ngrok.io not found"
+		]
+	},
+	{
+		"service": "pingdom",
+		"cname": [
+			"pingdom.com",
+			"pingdom"
+		],
+		"fingerprint": [
+			"This public report page has not been activated by the user",
+			"Public Report Not Activated"
+		]
+	},
+	{
+		"service": "smartjobboard",
+		"cname": [
+			"52.16.160.97"
+		],
+		"fingerprint": [
+			"This job board website is either expired or its domain name is invalid",
+			"Job Board Is Unavailable",
+			"This job board website is either expired"
+		]
+	},
+	{
+		"service": "strikingly",
+		"cname": [
+			"strikinglydns.com",
+			"strikingly"
+		],
+		"fingerprint": [
+			"page not found",
+			"you've come to the right place.",
+			"But if you're looking to build your own website"
+		]
+	},
+	{
+		"service": "tilda",
+		"cname": [
+			"185.203.72.17"
+		],
+		"fingerprint": [
+			"Please renew your subscription",
+			"Domain has been assigned",
+			"Please go to the site settings and put the domain name in the Domain tab."
+		]
+	},
+	{
+		"service": "uberflip",
+		"cname": [
+			"uberflip.com",
+			"read.uberflip.com",
+			"uberflip"
+		],
+		"fingerprint": [
+			"Non-hub domain, The URL you've accessed does not provide a hub"
+		]
+	},
+	{
+		"service": "unbounce",
+		"cname": [
+			"app.unbounce.com",
+			"unbounce.com",
+			"unbouncepages.com",
+			"unbounce"
+		],
+		"fingerprint": [
+			"The requested URL was not found on this server.",
+			"Domain is already in use.",
+			"Looks like this domain has been deleted, to be able to use it again we need to verify its ownership for security purposes. Please contact our team at support@unbounce.com."
+		]
+	},
+	{
+		"service": "uptimerobot",
+		"cname": [
+			"uptimerobot.com",
+			"stats.uptimerobot.com",
+			"uptimerobot"
+		],
+		"fingerprint": [
+			"page not found"
+		]
+	},
+	{
+		"service": "canny",
+		"cname": [
+			"canny",
+			"canny.io"
+		],
+		"fingerprint": [
+			"Company Not Found",
+			"There is no such company. Did you enter the right URL?"
+		]
+	},
+	{
+		"service": "cargo",
+		"cname": [
+			"cargo",
+			"cargo.site"
+		],
+		"fingerprint": [
+			"If you're moving your domain away from Cargo you must make this configuration through your registrar's DNS control panel."
+		]
+	},
+	{
+		"service": "frontify",
+		"cname": [
+			"frontify",
+			"frontify.com"
+		],
+		"fingerprint": [
+			"404 - Page Not Found",
+			"Oops… looks like you got lost"
+		]
+	},
+	{
+		"service": "helprace",
+		"cname": [
+			"helprace.com",
+			"helprace"
+		],
+		"fingerprint": [
+			"Alias not configured!",
+			"Admin of this Helprace account needs to set up domain alias",
+			"(see Step 2 here: Using your own domain with Helprace)."
+		]
+	},
+	{
+		"service": "hubspot",
+		"cname": [
+			"hubspot"
+		],
+		"fingerprint": [
+			"Domain not found",
+			"does not exist in our system"
+		]
+	},
+	{
+		"service": "jazzhr",
+		"cname": [
+			"jazzhr",
+			"applytojob.com"
+		],
+		"fingerprint": [
+			"This account no longer active"
+		]
+	},
+	{
+		"service": "landingi",
+		"cname": [
+			"landingi",
+			"cname.landingi.com"
+		],
+		"fingerprint": [
+			"It looks like you're lost",
+			"The page you are looking for is not found"
+		]
+	},
+	{
+		"service": "proposify",
+		"cname": [
+			"proposify",
+			"domain.proposify.com"
+		],
+		"fingerprint": [
+			"If you need immediate assistance"
+		]
+	},
+	{
+		"service": "smartling",
+		"cname": [
+			"smartling",
+			"smartling.com"
+		],
+		"fingerprint": [
+			"Domain is not configured"
+		]
+	},
+	{
+		"service": "surveygizmo",
+		"cname": [
+			"surveygizmo",
+			"sgizmo",
+			"sgizmoca"
+		],
+		"fingerprint": [
+			"data-html-name"
+		]
+	},
+	{
+		"service": "tave",
+		"cname": [
+			"tave"
+		],
+		"fingerprint": [
+			"Error 404: Page Not Found",
+			"Page Not Found",
+			"404"
+		]
+	},
+	{
+		"service": "wufoo",
+		"cname": [
+			"wufoo"
+		],
+		"fingerprint": [
+			"Profile not found",
+			"Hmmm....something is not right."
+		]
+	},
+	{
+		"service": "readthedocs",
+		"cname": [
+			"readthedocs",
+			"readthedocs-hosted"
+		],
+		"fingerprint": [
+			"unknown to Read the Docs"
+		]
+	},
+	{
+		"service": "vercel",
+		"cname": [
+			"vercel-dns",
+			"acme"
+		],
+		"fingerprint": [
+			"The deployment could not be found on Vercel.",
+			"DEPLOYMENT_NOT_FOUND"
+		]
+	}
+]
