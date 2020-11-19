@@ -124,4 +124,5 @@ with open(wordlist_file_path, "r") as fh:
                 output_file_fh.write("[CNAME] "+cname+"\n")
             print("%s[CNAME]%s " % (yellow, end)+cname+"\n")
 
-output_file_fh.close()
+if output_file:
+    output_file_fh.close()
