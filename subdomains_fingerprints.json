@@ -5,7 +5,8 @@
 			"fastly"
 		],
 		"fingerprint": [
-			"Fastly error: unknown domain"
+			"Fastly error: unknown domain",
+			"unknown domain"
 		]
 	},
 	{
@@ -15,7 +16,7 @@
 			"github"
 		],
 		"fingerprint": [
-			"There isn't a GitHub Pages site here.",
+			"There isn't a GitHub Pages site here",
 			"For root URLs (like http://example.com/) you must provide an index.html file"
 		]
 	},
@@ -39,7 +40,9 @@
 			"pantheon"
 		],
 		"fingerprint": [
-			"The gods are wise, but do not know of the site which you seek."
+			"The gods are wise, but do not know of the site which you seek",
+			"404 error unknown site!",
+			"404"
 		]
 	},
 	{
@@ -97,10 +100,13 @@
 		"service": "s3 bucket",
 		"cname": [
 			"amazonaws",
-			"amazonaws.com"
+			"amazonaws.com",
+			"s3-website",
+			"s3.amazon.com"
 		],
 		"fingerprint": [
-			"The specified bucket does not exist"
+			"The specified bucket does not exist",
+			"NoSuchBucket"
 		]
 	},
 	{
@@ -121,7 +127,7 @@
 			"feedpress"
 		],
 		"fingerprint": [
-			"The feed has not been found."
+			"The feed has not been found"
 		]
 	},
 	{
@@ -260,7 +266,8 @@
 			"bigcartel"
 		],
 		"fingerprint": [
-			"Oops! We could"
+			"Oops! We could",
+			"find that page"
 		]
 	},
 	{
@@ -272,7 +279,8 @@
 		"fingerprint": [
 			"Double check the URL",
 			"Trying to access your account?",
-			"or <a href="
+			"or <a href=",
+			"help@createsend.com"
 		]
 	},
 	{
@@ -336,7 +344,15 @@
 			"blob.core.windows.net",
 			"azure-api.net",
 			"azurehdinsight.net",
-			"azureedge.net"
+			"azureedge.net",
+			"azure",
+			"visualstudio.com",
+			"azureedge.net",
+			"database.windows.net",
+			"search.windows.net",
+			"azurecr.io",
+			"redis.cache.windows.net",
+			"servicebus.windows.net"
 		],
 		"fingerprint": []
 	},
@@ -359,13 +375,15 @@
 			"readme"
 		],
 		"fingerprint": [
-			"Project doesnt exist... yet!"
+			"Project doesnt exist... yet!",
+			"Project"
 		]
 	},
 	{
 		"service": "apigee",
 		"cname": [
-			"-portal.apigee.net"
+			"-portal.apigee.net",
+			"apigee"
 		],
 		"fingerprint": []
 	},
@@ -390,7 +408,7 @@
 		]
 	},
 	{
-		"service": "agile crm",
+		"service": "agilecrm",
 		"cname": [
 			"cname.agilecrm.com",
 			"agilecrm.com",
@@ -428,23 +446,29 @@
 		],
 		"fingerprint": [
 			"404 Not Found",
-			"<div class="
+			"<div class=",
+			"404"
 		]
 	},
 	{
 		"service": "digitalocean",
 		"cname": [
+			"173.245.58.51",
+			"173.245.59.41",
+			"198.41.222.173",
 			"digitalocean.com"
 		],
 		"fingerprint": [
-			"Domain uses DO name serves with no records in DO"
+			"Domain uses DO name serves with no records in DO",
+			"no record"
 		]
 	},
 	{
 		"service": "discourse",
 		"cname": [
 			"discoursehosting.net",
-			"hosted-by-discourse.com"
+			"hosted-by-discourse.com",
+			"discourse"
 		],
 		"fingerprint": [
 			"Domain has already been taken"
@@ -453,10 +477,13 @@
 	{
 		"service": "flyio",
 		"cname": [
-			"fly.dev"
+			"fly.dev",
+			"fly",
+			"shw.io"
 		],
 		"fingerprint": [
-			"404 Not Found"
+			"404 Not Found",
+			"404"
 		]
 	},
 	{
@@ -466,7 +493,8 @@
 			"gemfury"
 		],
 		"fingerprint": [
-			"404: This page could not be found"
+			"404: This page could not be found",
+			"404"
 		]
 	},
 	{
@@ -529,7 +557,8 @@
 		],
 		"fingerprint": [
 			"Tunnel *.ngrok.io not found",
-			"ngrok.io not found"
+			"ngrok.io not found",
+			"not found"
 		]
 	},
 	{
@@ -642,7 +671,8 @@
 		],
 		"fingerprint": [
 			"404 - Page Not Found",
-			"Oops… looks like you got lost"
+			"Oops… looks like you got lost",
+			"404"
 		]
 	},
 	{
@@ -744,6 +774,7 @@
 		"service": "readthedocs",
 		"cname": [
 			"readthedocs",
+			"readthedocs.io",
 			"readthedocs-hosted"
 		],
 		"fingerprint": [
@@ -754,11 +785,501 @@
 		"service": "vercel",
 		"cname": [
 			"vercel-dns",
-			"acme"
+			"acme",
+			"vercel"
 		],
 		"fingerprint": [
 			"The deployment could not be found on Vercel.",
 			"DEPLOYMENT_NOT_FOUND"
+		]
+	},
+	{
+		"service": "leadpages",
+		"cname": [
+			"lpages",
+			"leadpages"
+		],
+		"fingerprint": [
+			"The page may have been moved",
+			"404",
+			"Double check that you have the right web address and give it another go"
+		]
+	},
+	{
+		"service": "appery.io",
+		"cname": [
+			"appery"
+		],
+		"fingerprint": [
+			"This page will be updated automatically when your app is published"
+		]
+	},
+	{
+		"service": "divio",
+		"cname": [
+			"aldryn"
+		],
+		"fingerprint": [
+			"No application configured"
+		]
+	},
+	{
+		"service": "elasticbeans",
+		"cname": [
+			"elasticbeanstalk"
+		],
+		"fingerprint": [
+			"This site can't be reached"
+		]
+	},
+	{
+		"service": "bitly",
+		"cname": [
+			"bitly",
+			"cname.bitly.com"
+		],
+		"fingerprint": [
+			"Hey There, This Is A Branded Short Domain"
+		]
+	},
+	{
+		"service": "distil",
+		"cname": [
+			"distil.us",
+			"distil"
+		],
+		"fingerprint": [
+			"Requested Domain Unavailable",
+			"Unavailable"
+		]
+	},
+	{
+		"service": "google",
+		"cname": [
+			"google.com",
+			"google"
+		],
+		"fingerprint": [
+			"The requested URL / was not found on this server. That's all we know"
+		]
+	},
+	{
+		"service": "kickoffpages",
+		"cname": [
+			"kickofflabs",
+			"kickofflabs.edgeapp.net"
+		],
+		"fingerprint": [
+			"Landing Page Not Found",
+			"Not Found"
+		]
+	},
+	{
+		"service": "nationbuilder",
+		"cname": [
+			"sendgrid.net"
+		],
+		"fingerprint": [
+			"Page cannot be found",
+			"The URL you requested either moved or no longer exists"
+		]
+	},
+	{
+		"service": "kajabi",
+		"cname": [
+			"mykajabi",
+			"endpoint.mykajabi.com"
+		],
+		"fingerprint": [
+			"The page you were looking for doesn't exist"
+		]
+	},
+	{
+		"service": "thinkific",
+		"cname": [
+			"thinkific"
+		],
+		"fingerprint": [
+			"You may have mistyped the address or the page may have moved"
+		]
+	},
+	{
+		"service": "ning",
+		"cname": [
+			"ning"
+		],
+		"fingerprint": [
+			"is free to take"
+		]
+	},
+	{
+		"service": "squarespace",
+		"cname": [
+			"squarespace"
+		],
+		"fingerprint": [
+			"Squarespace - Claim This Domain",
+			"Claim This Domain"
+		]
+	},
+	{
+		"service": "tistory",
+		"cname": [
+			"tistory",
+			"tistory.io"
+		],
+		"fingerprint": [
+			"존재하지 않는 페이지 입니다"
+		]
+	},
+	{
+		"service": "Alibaba Cloud OSS",
+		"cname": [
+			"aliyuncs.com",
+			"aliyuncs"
+		],
+		"fingerprint": [
+			"NoSuchBucket",
+			"The specified bucket does not exist"
+		]
+	},
+	{
+		"service": "marketo",
+		"cname": [
+			"mktoweb.com",
+			"mktoweb"
+		],
+		"fingerprint": [
+			"404",
+			"404 PAGE NOT FOUND"
+		]
+	},
+	{
+		"service": "stackpath",
+		"cname": [
+			"stackpathdns.com",
+			"stackpathdns"
+		],
+		"fingerprint": [
+			"404",
+			"not found"
+		]
+	},
+	{
+		"service": "dreamhost",
+		"cname": [
+			"dreamhost"
+		],
+		"fingerprint": [
+			"404",
+			"site not found",
+			"not found"
+		]
+	},
+	{
+		"service": "airbridge",
+		"cname": [
+			"airbridge.io",
+			"airbridge"
+		],
+		"fingerprint": [
+			"404",
+			"site not found",
+			"not found",
+			"The page you were looking for doesn't exist",
+			"Oops"
+		]
+	},
+	{
+		"service": "podia",
+		"cname": [
+			"domains.podia.com",
+			"podia"
+		],
+		"fingerprint": [
+			"404",
+			"404 Not Found",
+			"not found"
+		]
+	},
+	{
+		"service": "storyxpress",
+		"cname": [
+			"videos.storyxpress.co",
+			"storyxpress"
+		],
+		"fingerprint": [
+			"404",
+			"404 Page Not Found",
+			"not found"
+		]
+	},
+	{
+		"service": "teachable",
+		"cname": [
+			"school.teachable.com",
+			"teachable"
+		],
+		"fingerprint": [
+			"Sorry, we couldn't find that page",
+			"404"
+		]
+	},
+	{
+		"service": "activecampaign",
+		"cname": [
+			"managed-cname-fallback.activehosted.com",
+			"activehosted"
+		],
+		"fingerprint": [
+			"Not Found",
+			"Sorry, this page could not be found",
+			"Please check your link/URL and try again"
+		]
+	},
+	{
+		"service": "slab",
+		"cname": [
+			"app.slab.com",
+			"slab"
+		],
+		"fingerprint": [
+			"Sorry, we couldn't find that page"
+		]
+	},
+	{
+		"service": "Wild Apricot",
+		"cname": [
+			"wildapricot.org",
+			"sites.wildapricot.org",
+			"dkim.wildapricot.org",
+			"wildapricot"
+		],
+		"fingerprint": [
+			"404",
+			"site not found"
+		]
+	},
+	{
+		"service": "Cyfe",
+		"cname": [
+			"app.cyfe.com",
+			"cyfe.com"
+		],
+		"fingerprint": [
+			"The page you requested was not found",
+			"page not found"
+		]
+	},
+	{
+		"service": "IBM cloud",
+		"cname": [
+			"cloud.ibm.com",
+			"ibm.com"
+		],
+		"fingerprint": [
+			"404",
+			"not found"
+		]
+	},
+	{
+		"service": "rise",
+		"cname": [
+			"custom.rise.com",
+			"rise.com"
+		],
+		"fingerprint": [
+			"404",
+			"Whoops... that page doesn't exist"
+		]
+	},
+	{
+		"service": "foleon",
+		"cname": [
+			"s1.foleon.com",
+			"foleon"
+		],
+		"fingerprint": [
+			"404",
+			"404 error",
+			"the requested page was not found"
+		]
+	},
+	{
+		"service": "meetfox",
+		"cname": [
+			"meetfox.lide.clearalias.com"
+		],
+		"fingerprint": [
+			"404 page",
+			"404",
+			"Secure Your Customer Domains"
+		]
+	},
+	{
+		"service": "proprofs",
+		"cname": [
+			"helpdocsonline.com"
+		],
+		"fingerprint": [
+			"404 page",
+			"404",
+			"Your trial expired"
+		]
+	},
+	{
+		"service": "simplecast",
+		"cname": [
+			"site.simplecast.com"
+		],
+		"fingerprint": [
+			"404 Not Found",
+			"404"
+		]
+	},
+	{
+		"service": "groovehq",
+		"cname": [
+			"groovehq.com"
+		],
+		"fingerprint": [
+			"404 Not Found",
+			"404"
+		]
+	},
+	{
+		"service": "gumlet",
+		"cname": [
+			"edge.gumlet.net"
+		],
+		"fingerprint": [
+			"404 Not Found",
+			"The requested URL was not found on this server",
+			"404"
+		]
+	},
+	{
+		"service": "involve.me",
+		"cname": [
+			"custom.brandquiz.io"
+		],
+		"fingerprint": [
+			"Not Found",
+			"404"
+		]
+	},
+	{
+		"service": "getomnify",
+		"cname": [
+			"getomnify.com"
+		],
+		"fingerprint": [
+			"Not Found",
+			"Page not found"
+		]
+	},
+	{
+		"service": "Duda",
+		"cname": [
+			"s.dudaone.com",
+			"m.mobilewebsiteserver.com",
+			"m.previewmymobile.com"
+		],
+		"fingerprint": [
+			"Oops",
+			"The page you're looking for cannot be found",
+			"Page not found!"
+		]
+	},
+	{
+		"service": "wordstream",
+		"cname": [
+			"cname.wordstreamlp.com"
+		],
+		"fingerprint": [
+			"The page you requested could not be found",
+			"404",
+			"Page not found"
+		]
+	},
+	{
+		"service": "render.com",
+		"cname": [
+			"dashboard.onrender.com"
+		],
+		"fingerprint": [
+			"Not Found"
+		]
+	},
+	{
+		"service": "groove.co",
+		"cname": [
+			"branded.groove.co"
+		],
+		"fingerprint": [
+			"Not Found"
+		]
+	},
+	{
+		"service": "clickfunnels",
+		"cname": [
+			"target.clickfunnels.com"
+		],
+		"fingerprint": [
+			"no page",
+			"No Page matching this path found",
+			"page not found"
+		]
+	},
+	{
+		"service": "deskero",
+		"cname": [
+			"deskero.com"
+		],
+		"fingerprint": [
+			"404",
+			"Please make sure the URL you entered is correct",
+			"page not found"
+		]
+	},
+	{
+		"service": "recruitee",
+		"cname": [
+			"secure.recruitee.com"
+		],
+		"fingerprint": [
+			"careers site is no longer hosted here",
+			"Sorry, this careers site is no longer hosted here"
+		]
+	},
+	{
+		"service": "outgrow",
+		"cname": [
+			"outgrow.co"
+		],
+		"fingerprint": [
+			"404",
+			"not found"
+		]
+	},
+	{
+		"service": "compendium",
+		"cname": [
+			"www.compendiumblog.com"
+		],
+		"fingerprint": [
+			"Page Not Found",
+			"The page you attempted to access could not be located"
+		]
+	},
+	{
+		"service": "goacoustic",
+		"cname": [
+			"certs.dx-wch.ibm.com.edgesuite.net"
+		],
+		"fingerprint": [
+			"Invalid URL",
+			"404"
 		]
 	}
 ]
