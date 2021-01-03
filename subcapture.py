@@ -5,6 +5,7 @@ import requests
 import argparse
 import json
 import dns.resolver
+import concurrent.futures
 from bs4 import BeautifulSoup
 from useragents import rand_user_agent
 
@@ -17,6 +18,7 @@ end = '\033[0m'
 parser = argparse.ArgumentParser()
 parser.add_argument("--subdomains", "-w", dest="subdomains", type=str, help="path to the file containing subdomains", required=True)
 parser.add_argument("--timeout", "-t", dest="timeout", type=int, help="seconds till it will send the request", default=7)
+parser.add_argument("--threads", "-th", dest="threads", type=int, help="number of threads (default: 10)", default=10)
 parser.add_argument("--output", "-o", dest="output", type=str, help="name of file in which you want to write the output")
 parser.add_argument("--verbose", "-v", help="additional info", dest="verbose", action="store_true")
 args = parser.parse_args()
@@ -24,6 +26,7 @@ args = parser.parse_args()
 wordlist_file_path = args.subdomains
 output_file = args.output
 connection_timeout = args.timeout
+threads_count = args.threads
 verbose = args.verbose
 
 with open((os.path.abspath(os.path.dirname(__file__))+"/subdomains_fingerprints.json"), "r") as fh:
@@ -39,12 +42,12 @@ wordlist_file_fh = open(wordlist_file_path, "r")
 subdomains_list = wordlist_file_fh.read().split("\n")
 wordlist_file_fh.close()
 
-for each_subdomain in subdomains_list:
+def host_tokeover_check(each_subdomain):
     stripped_each_subdomain = each_subdomain.rstrip("\n").replace("https://", "").replace("http://", "").rstrip("/")
 
     # skip blank records
     if stripped_each_subdomain == "":
-        continue
+        return False
 
     # only allows 3 level domains
     # (example.com is not allowed) (test.example.com is allowed)
@@ -96,7 +99,7 @@ for each_subdomain in subdomains_list:
                 if output_file:
                     output_file_fh.write("[CNAME] "+cname+"\n")
                 print("%s[CNAME]%s " % (yellow, end)+cname+"\n")
-            continue
+            return False
 
     # to iterate over each service provider/engine
     for each_engine in subdomain_fingerprints:
@@ -161,3 +164,7 @@ for each_subdomain in subdomains_list:
 if output_file:
     output_file_fh.close()
     vul_domains_fh.close()
+
+if __name__ == "__main__":
+    with concurrent.futures.ThreadPoolExecutor(max_workers=threads_count) as executor:
+        executor.map(host_tokeover_check, subdomains_list)
