@@ -1,15 +1,5 @@
 [
 	{
-		"service": "fastly",
-		"cname": [
-			"fastly"
-		],
-		"fingerprint": [
-			"Fastly error: unknown domain",
-			"unknown domain"
-		]
-	},
-	{
 		"service": "github",
 		"cname": [
 			"github.io",
@@ -23,9 +13,7 @@
 	{
 		"service": "heroku",
 		"cname": [
-			"herokuapp",
-			"herokudns.com",
-			"herokussl.com"
+			"herokuapp"
 		],
 		"fingerprint": [
 			"No such app",
@@ -36,8 +24,7 @@
 	{
 		"service": "pantheon",
 		"cname": [
-			"pantheonsite.io",
-			"pantheon"
+			"pantheonsite.io"
 		],
 		"fingerprint": [
 			"The gods are wise, but do not know of the site which you seek",
@@ -48,8 +35,7 @@
 	{
 		"service": "tumblr",
 		"cname": [
-			"domains.tumblr.com",
-			"tumblr"
+			"domains.tumblr.com"
 		],
 		"fingerprint": [
 			"Whatever you were looking for doesn't currently exist at this address.",
@@ -59,8 +45,7 @@
 	{
 		"service": "wordpress",
 		"cname": [
-			"wordpress.com",
-			"wordpress"
+			"wordpress.com"
 		],
 		"fingerprint": [
 			"Do you want to register"
@@ -69,8 +54,7 @@
 	{
 		"service": "teamwork",
 		"cname": [
-			"teamwork.com",
-			"teamwork"
+			"teamwork.com"
 		],
 		"fingerprint": [
 			"Oops - We didn't find your site."
@@ -79,8 +63,7 @@
 	{
 		"service": "helpjuice",
 		"cname": [
-			"helpjuice.com",
-			"helpjuice"
+			"helpjuice.com"
 		],
 		"fingerprint": [
 			"We could not find what you're looking for."
@@ -89,8 +72,7 @@
 	{
 		"service": "helpscout",
 		"cname": [
-			"helpscoutdocs.com",
-			"helpscout"
+			"helpscoutdocs.com"
 		],
 		"fingerprint": [
 			"No settings were found for this company:"
@@ -112,8 +94,7 @@
 	{
 		"service": "ghost",
 		"cname": [
-			"ghost.io",
-			"ghost"
+			"ghost.io"
 		],
 		"fingerprint": [
 			"The thing you were looking for is no longer here, or never was",
@@ -123,8 +104,7 @@
 	{
 		"service": "feedpress",
 		"cname": [
-			"redirect.feedpress.me",
-			"feedpress"
+			"redirect.feedpress.me"
 		],
 		"fingerprint": [
 			"The feed has not been found"
@@ -133,8 +113,7 @@
 	{
 		"service": "shopify",
 		"cname": [
-			"myshopify.com",
-			"shopify"
+			"myshopify.com"
 		],
 		"fingerprint": [
 			"Sorry, this shop is currently unavailable."
@@ -152,8 +131,7 @@
 	{
 		"service": "uservoice",
 		"cname": [
-			"uservoice.com",
-			"uservoice"
+			"uservoice.com"
 		],
 		"fingerprint": [
 			"This UserVoice subdomain is currently available!"
@@ -162,8 +140,7 @@
 	{
 		"service": "surge",
 		"cname": [
-			"surge.sh",
-			"surge"
+			"surge.sh"
 		],
 		"fingerprint": [
 			"project not found"
@@ -172,8 +149,7 @@
 	{
 		"service": "bitbucket",
 		"cname": [
-			"bitbucket.io",
-			"bitbucket"
+			"bitbucket.io"
 		],
 		"fingerprint": [
 			"Repository not found",
@@ -184,8 +160,7 @@
 		"service": "intercom",
 		"cname": [
 			"custom.intercom.help",
-			"intercom-mail.com",
-			"intercom"
+			"intercom-mail.com"
 		],
 		"fingerprint": [
 			"Uh oh. That page doesn't exist.",
@@ -196,8 +171,7 @@
 		"service": "webflow",
 		"cname": [
 			"proxy.webflow.com",
-			"proxy-ssl.webflow.com",
-			"webflow"
+			"proxy-ssl.webflow.com"
 		],
 		"fingerprint": [
 			"The page you are looking for doesn't exist or has been moved"
@@ -206,8 +180,7 @@
 	{
 		"service": "wishpond",
 		"cname": [
-			"wishpond.com",
-			"wishpond"
+			"wishpond.com"
 		],
 		"fingerprint": [
 			"404"
@@ -216,8 +189,7 @@
 	{
 		"service": "aftership",
 		"cname": [
-			"aftership.com",
-			"aftership"
+			"aftership.com"
 		],
 		"fingerprint": [
 			"The page you're looking for doesn't exist"
@@ -237,8 +209,7 @@
 		"service": "tictail",
 		"cname": [
 			"tictail.com",
-			"domains.tictail.com",
-			"tictail"
+			"domains.tictail.com"
 		],
 		"fingerprint": [
 			"to target URL:",
@@ -262,8 +233,7 @@
 	{
 		"service": "bigcartel",
 		"cname": [
-			"bigcartel.com",
-			"bigcartel"
+			"bigcartel.com"
 		],
 		"fingerprint": [
 			"Oops! We could",
@@ -297,8 +267,7 @@
 	{
 		"service": "simplebooklet",
 		"cname": [
-			"simplebooklet.com",
-			"simplebooklet"
+			"simplebooklet.com"
 		],
 		"fingerprint": [
 			"We can't find this"
@@ -500,8 +469,7 @@
 	{
 		"service": "hatenablog",
 		"cname": [
-			"hatenablog.com",
-			"hatenablog"
+			"hatenablog.com"
 		],
 		"fingerprint": [
 			"404 Blog is not found",
@@ -511,8 +479,7 @@
 	{
 		"service": "kinsta",
 		"cname": [
-			"kinsta.cloud",
-			"kinsta"
+			"kinsta.cloud"
 		],
 		"fingerprint": [
 			"No Site For Domain"
@@ -521,8 +488,7 @@
 	{
 		"service": "launchrock",
 		"cname": [
-			"launchrock.com",
-			"launchrock"
+			"launchrock.com"
 		],
 		"fingerprint": [
 			"It looks like you may have taken a wrong turn somewhere"
@@ -618,20 +584,6 @@
 		]
 	},
 	{
-		"service": "unbounce",
-		"cname": [
-			"app.unbounce.com",
-			"unbounce.com",
-			"unbouncepages.com",
-			"unbounce"
-		],
-		"fingerprint": [
-			"The requested URL was not found on this server.",
-			"Domain is already in use.",
-			"Looks like this domain has been deleted, to be able to use it again we need to verify its ownership for security purposes. Please contact our team at support@unbounce.com."
-		]
-	},
-	{
 		"service": "uptimerobot",
 		"cname": [
 			"uptimerobot.com",
@@ -710,7 +662,6 @@
 	{
 		"service": "landingi",
 		"cname": [
-			"landingi",
 			"cname.landingi.com"
 		],
 		"fingerprint": [
@@ -721,7 +672,6 @@
 	{
 		"service": "proposify",
 		"cname": [
-			"proposify",
 			"domain.proposify.com"
 		],
 		"fingerprint": [
@@ -731,7 +681,6 @@
 	{
 		"service": "smartling",
 		"cname": [
-			"smartling",
 			"smartling.com"
 		],
 		"fingerprint": [
@@ -773,7 +722,6 @@
 	{
 		"service": "readthedocs",
 		"cname": [
-			"readthedocs",
 			"readthedocs.io",
 			"readthedocs-hosted"
 		],
@@ -946,8 +894,7 @@
 	{
 		"service": "marketo",
 		"cname": [
-			"mktoweb.com",
-			"mktoweb"
+			"mktoweb.com"
 		],
 		"fingerprint": [
 			"404",
@@ -957,8 +904,7 @@
 	{
 		"service": "stackpath",
 		"cname": [
-			"stackpathdns.com",
-			"stackpathdns"
+			"stackpathdns.com"
 		],
 		"fingerprint": [
 			"404",
@@ -979,8 +925,7 @@
 	{
 		"service": "airbridge",
 		"cname": [
-			"airbridge.io",
-			"airbridge"
+			"airbridge.io"
 		],
 		"fingerprint": [
 			"404",
@@ -1052,8 +997,7 @@
 		"cname": [
 			"wildapricot.org",
 			"sites.wildapricot.org",
-			"dkim.wildapricot.org",
-			"wildapricot"
+			"dkim.wildapricot.org"
 		],
 		"fingerprint": [
 			"404",
@@ -1301,6 +1245,16 @@
 		"fingerprint": [
 			"Oops! We couldn’t find that page. Sorry about that",
 			"couldn’t find that page"
+		]
+	},
+	{
+		"service": "readymag",
+		"cname": [
+			"domains.readymag.com"
+		],
+		"fingerprint": [
+			"website is almost here",
+			"to complete the setup, please"
 		]
 	}
 ]
